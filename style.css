@@ -1,0 +1,154 @@
+body {
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#000812;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#b9ad8d;
+    padding:25px 20px 30px 35px;
+  }
+   
+
+  .logo {
+    color: #fff;
+    font-size:3rem;
+    letter-spacing:1px;
+  }
+  
+  nav ul {
+    list-style:none;
+    display:flex;
+    margin:0;
+    padding:0 5px;
+  }
+  
+  nav ul li {
+    margin-left: 22px;
+  }
+  
+  nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  nav ul li a:hover {
+    color:#222;
+    text-decoration:underline;
+    
+  }
+  
+  .hero {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background:#10151b;
+    padding: 54px 30px 50px 28px;
+  }
+  
+  .hero-style h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+  
+  .hero-style p {
+    color: #bbb;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 18px;
+  }
+  
+  .hero-img img {
+    width: 295px;
+    border-radius: 7px;
+  }
+  
+  .products {
+    background: #10151b;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  .products h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .products-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    background: #181c22;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .product img {
+    width: 100px;
+    margin-bottom: 5px;
+  }
+  
+  .product p {
+    color: #fff;
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    header, .hero {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .products-row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero-img img {
+      width: 130px;
+    }
+    .hero-style h1 {
+      font-size: 1.5rem;
+    }
+    .hero-style p {
+      font-size: 1rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .brand-strip {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+  .brand-strip-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .brand-strip-logos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .brand-strip-logos img {
+    height: 50px;
+  }
+  
+  
