@@ -102,7 +102,7 @@ body {
   .product p {
     color: #fff;
     margin: 5px 0 0 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   
   @media only screen and (max-width: 600px) {
@@ -121,7 +121,7 @@ body {
       font-size: 1.5rem;
     }
     .hero-style p {
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
     .logo {
       font-size: 1.5rem;
